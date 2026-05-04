@@ -32,7 +32,7 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-image-container">
           <img 
-            src="../Gemini_Generated_Image_rqeabwrqeabwrqea.png" 
+            src="/Gemini_Generated_Image_rqeabwrqeabwrqea.png" 
             alt="Elegant woman in dress" 
             className="hero-bg-image"
           />

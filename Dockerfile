@@ -20,10 +20,6 @@ COPY backend/ ./backend/
 # Copy the built frontend to the expected location
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
 
-# Ensure the database exists (it will be created by db.js if missing, 
-# but copying an existing one preserves initial data)
-COPY database.sqlite ./ 
-
 # Set environment variables
 ENV NODE_ENV=production
 ENV PORT=8080

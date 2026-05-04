@@ -9,3 +9,6 @@ frontend/dist
 dist
 build
 .vite
+*.sqlite
+*.sqlite3
+.env
